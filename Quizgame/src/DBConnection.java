@@ -7,7 +7,7 @@ public class DBConnection {
             return DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/quizdb",
                     "root",
-                    "2122003Rr"
+                    "pass"
             );
         } catch (Exception e) {
             e.printStackTrace();
